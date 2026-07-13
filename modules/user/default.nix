@@ -6,5 +6,7 @@
     ./shell.nix
     ./desktop.nix
     ./editors.nix
+    ./browser.nix
+    ./terminal.nix
   ];
 }

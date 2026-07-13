@@ -3,13 +3,17 @@
 {
   imports = [
     ./boot.nix
+    ./hardware.nix
     ./locale.nix
     ./networking.nix
     ./audio.nix
-    ./graphics.nix
-    ./packages.nix
+    ./security.nix
     ./services.nix
     ./users.nix
     ./nix.nix
+    ./fonts.nix
+    ./essentials.nix
+    ./desktop.nix
+    ./system.nix
   ];
 }
