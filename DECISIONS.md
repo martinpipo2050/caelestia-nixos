@@ -24,3 +24,20 @@ Separate responsibilities into:
 - caelestia
 
 Status: Accepted
+
+## ADR-003
+
+### Dotfiles are not part of the repository
+
+Status: Accepted
+
+The official Caelestia dotfiles remain in their own repository.
+
+This project only integrates them into Home Manager.
+
+Rationale:
+
+- Easier updates.
+- Respect upstream.
+- Less maintenance.
+- Clear separation of responsibilities.
