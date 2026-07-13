@@ -1,9 +1,7 @@
-{ ... }:
+{ inputs, ... }:
 
 {
   imports = [
-    ./shell.nix
-    ./settings.nix
-    ./dotfiles.nix
+    inputs.caelestia-shell.homeManagerModules.default
   ];
 }
