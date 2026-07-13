@@ -1,49 +1,19 @@
-# 🌌 Caelestia-NixOS
-
-> A modular integration of the official Caelestia ecosystem for NixOS.
-
----
-
-## Philosophy
-
-This project is **not** a fork of Caelestia.
-
-Its purpose is to integrate the official Caelestia ecosystem into NixOS using modern Nix practices such as Flakes and Home Manager.
-
-The goal is to provide:
-
-- Clean architecture
-- Modular design
-- Easy maintenance
-- Excellent documentation
-- Respect for the original projects
-
----
-
-## Project Status
-
-🚧 Under development
-
----
-
-## Repository Structure
-
-Coming soon.
-
----
-
-## Documentation
-
-Coming soon.
-
----
-
 ## Acknowledgements
 
-Thanks to the original Caelestia developers for creating:
+This project stands on the work of many open source communities and developers.
 
-- Caelestia Shell
-- Caelestia CLI
-- Caelestia Dotfiles
+Special thanks to:
 
-This project only provides a NixOS integration.
+- The Caelestia developers for creating:
+  - Caelestia Shell
+  - Caelestia CLI
+  - Caelestia Dotfiles
+- The NixOS community
+- The Home Manager community
+- The Hyprland developers
+
+This project was designed and developed by **martinpipo2050** with the assistance of **OpenAI ChatGPT** throughout its design, architecture, documentation and implementation.
+
+Caelestia-NixOS is an independent community project and is **not affiliated with or endorsed by the official Caelestia developers**.
+
+Without the work of all these projects, Caelestia-NixOS would not exist.
