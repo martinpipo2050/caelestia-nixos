@@ -7,5 +7,6 @@
     ./shell.nix
     ./settings.nix
     ./dotfiles.nix
+    ./activation.nix
   ];
 }
