@@ -13,8 +13,4 @@
 
   programs.home-manager.enable = true;
 
-  programs.caelestia = {
-    enable = true;
-    cli.enable = true;
-  };
 }
