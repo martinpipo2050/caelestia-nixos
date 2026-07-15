@@ -24,8 +24,14 @@
     # Visores
     loupe
     evince
-    
+
+    # Tema GTK
+    adw-gtk3
+
+    # Iconos
     papirus-icon-theme
+
+    # Cursores
     bibata-cursors
 
   ];

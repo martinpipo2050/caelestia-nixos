@@ -10,6 +10,9 @@
     eza
     micro
 
+    # Apariencia
+    nwg-look
+
     # GNOME
     gnome-tweaks
     gnome-extension-manager

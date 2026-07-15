@@ -11,11 +11,6 @@
     file
     which
 
-    fastfetch
-    btop
-
-    micro
-
     pciutils
     usbutils
 
