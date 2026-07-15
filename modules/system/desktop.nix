@@ -24,6 +24,9 @@
     # Visores
     loupe
     evince
+    
+    papirus-icon-theme
+    bibata-cursors
 
   ];
 }
