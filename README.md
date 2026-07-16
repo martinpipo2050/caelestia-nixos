@@ -1,19 +1,38 @@
-## Acknowledgements
+# Documentation
 
-This project stands on the work of many open source communities and developers.
+Welcome to the documentation of **Caelestia-NixOS**.
 
-Special thanks to:
+This directory contains the complete documentation for the project.
 
-- The Caelestia developers for creating:
-  - Caelestia Shell
-  - Caelestia CLI
-  - Caelestia Dotfiles
-- The NixOS community
-- The Home Manager community
-- The Hyprland developers
+Whether you are installing the system for the first time, exploring its architecture or contributing to its development, this is the best place to start.
 
-This project was designed and developed by **martinpipo2050** with the assistance of **OpenAI ChatGPT** throughout its design, architecture, documentation and implementation.
+---
 
-Caelestia-NixOS is an independent community project and is **not affiliated with or endorsed by the official Caelestia developers**.
+# Documentation Index
 
-Without the work of all these projects, Caelestia-NixOS would not exist.
+| Document | Description |
+|----------|-------------|
+| Getting Started | Installation and first boot |
+| Development | Development workflow |
+| Philosophy | Project vision and goals |
+| History | How the project evolved |
+| FAQ | Frequently asked questions |
+| Troubleshooting | Common issues and solutions |
+| Releases | Release history |
+
+---
+
+# Reading Order
+
+If you are new to the project, we recommend reading the documentation in the following order:
+
+1. Getting Started
+2. Philosophy
+3. Architecture
+4. Development
+5. FAQ
+6. Troubleshooting
+
+---
+
+For a complete overview of the project, return to the main **README.md**.

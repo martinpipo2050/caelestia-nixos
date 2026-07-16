@@ -1,0 +1,16 @@
+# Nix build outputs
+result
+result-*
+
+# Direnv
+.direnv
+.envrc
+
+# Editors
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
