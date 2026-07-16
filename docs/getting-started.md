@@ -47,17 +47,20 @@ cd caelestia-nixos
 
 # Step 3 — Copy your hardware configuration
 
-NixOS generates a hardware configuration during installation.
+A standard NixOS installation creates the `/etc/nixos` directory containing
+your system configuration.
 
-Copy it into the project.
+This repository already provides its own modular NixOS and Home Manager
+configuration, so **do not copy your entire `/etc/nixos` directory**.
+
+The only file required from your installation is
+`hardware-configuration.nix`, which contains hardware-specific settings.
 
 ```bash
 sudo cp /etc/nixos/hardware-configuration.nix hosts/desktop/
 ```
 
 Replace the existing file if necessary.
-
----
 
 # Step 4 — Review the configuration
 
