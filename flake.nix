@@ -44,6 +44,10 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
 
+            # Si existe un archivo gestionado por Home Manager,
+            # se conserva con esta extensión antes de reemplazarlo.
+            home-manager.backupFileExtension = "backup";
+
             home-manager.extraSpecialArgs = {
               inherit inputs;
             };

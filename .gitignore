@@ -14,3 +14,6 @@ result-*
 # OS files
 .DS_Store
 Thumbs.db
+
+# Home Manager backups
+*.backup

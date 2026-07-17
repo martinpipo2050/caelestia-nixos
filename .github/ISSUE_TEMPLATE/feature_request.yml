@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an idea to improve Caelestia-NixOS.
+title: "[Feature]: "
+labels:
+  - enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your suggestion.
+
+        Before opening a feature request, please check whether a similar idea already exists.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the limitation or inconvenience you have encountered.
+      placeholder: Explain the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe your idea.
+      placeholder: How would you solve it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered another approach?
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Add screenshots, links or any extra context.
