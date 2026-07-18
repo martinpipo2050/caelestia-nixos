@@ -8,6 +8,7 @@
     tumbler
     thunar-volman
     thunar-archive-plugin
+    thunar-shares-plugin
 
     # Compresión
     file-roller
@@ -33,6 +34,9 @@
 
     # Cursores
     bibata-cursors
+    
+    # Sonido
+    pavucontrol
 
   ];
 }

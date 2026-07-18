@@ -4,7 +4,7 @@
   imports = [
     inputs.caelestia-shell.homeManagerModules.default
 
-    ./shell.nix
+    ./cli.nix
     ./settings.nix
     ./dotfiles.nix
     ./activation.nix

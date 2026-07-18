@@ -1,21 +1,30 @@
 { pkgs, ... }:
 
 {
-  home.packages = with pkgs; [
+home.packages = with pkgs; [
+  # CLI
+  bat
+  btop
+  curl
+  eza
+  fastfetch
+  fd
+  fzf
+  jq
+  lazygit
+  micro
+  ripgrep
+  tree
+  unzip
+  wget
+  zip
+  delta
 
-    # Utilidades
-    fastfetch
-    btop
-    tree
-    eza
-    micro
+  # Apariencia
+  nwg-look
 
-    # Apariencia
-    nwg-look
-
-    # GNOME
-    gnome-tweaks
-    gnome-extension-manager
-
-  ];
+  # GNOME
+  gnome-extension-manager
+  gnome-tweaks
+];
 }

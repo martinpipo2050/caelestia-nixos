@@ -1,14 +1,6 @@
-{
-  pkgs,
-  ...
-}:
+{ ... }:
 
 {
-  home.packages = with pkgs; [
-    eza
-    lazygit
-  ];
-
   programs.fish = {
     enable = true;
 
@@ -41,20 +33,52 @@
     };
 
     interactiveShellInit = ''
-      # Disable Fish default greeting
       set -g fish_greeting
 
-      # Direnv
-      command -q direnv; and direnv hook fish | source
+      if test -f ~/.local/state/caelestia/sequences.txt
+        cat ~/.local/state/caelestia/sequences.txt
+      end
 
-      # Zoxide
-      command -q zoxide; and zoxide init fish --cmd cd | source
+      echo '     ______           __          __  _       '
+      echo '    / ____/___ ____  / /__  _____/ /_(_)___ _ '
+      echo '   / /   / __ `/ _ \/ / _ \/ ___/ __/ / __ `/ '
+      echo '  / /___/ /_/ /  __/ /  __(__  ) /_/ / /_/ /  '
+      echo '  \____/\__,_/\___/_/\___/____/\__/_/\__,_/   '
+
+      if command -q fastfetch
+        fastfetch --key-padding-left 5
+      end
+
+      if command -q starship
+        starship init fish | source
+      end
+
+      if command -q direnv
+        direnv hook fish | source
+      end
+
+      if command -q zoxide
+        zoxide init fish --cmd cd | source
+      end
+
+      function mark_prompt_start --on-event fish_prompt
+        echo -en "\e]133;A\e\\"
+      end
+
+      set -q XDG_CONFIG_HOME
+      and set -l cConf $XDG_CONFIG_HOME/caelestia
+      or set -l cConf $HOME/.config/caelestia
+
+      source $cConf/user-config.fish 2>/dev/null
     '';
   };
 
   programs.git = {
     enable = true;
-    userName = "martinpipo";
-    userEmail = "maragarsal2050@gmail.com";
+
+    settings.user = {
+      name = "martinpipo";
+      email = "maragarsal2050@gmail.com";
+    };
   };
 }
