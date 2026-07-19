@@ -40,6 +40,11 @@
     # Sonido
     pavucontrol
     easyeffects
+    
+    # Utilidades del sistema
+    brightnessctl
+    wl-clipboard
+    lm_sensors
 
   ];
 }
