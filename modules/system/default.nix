@@ -12,7 +12,6 @@
     ./users.nix
     ./nix.nix
     ./fonts.nix
-    ./essentials.nix
     ./desktop.nix
     ./system.nix
   ];

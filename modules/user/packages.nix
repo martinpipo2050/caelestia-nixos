@@ -9,7 +9,9 @@ home.packages = with pkgs; [
   eza
   fastfetch
   fd
+  file
   fzf
+  git
   jq
   lazygit
   micro
@@ -26,5 +28,6 @@ home.packages = with pkgs; [
   # GNOME
   gnome-extension-manager
   gnome-tweaks
+  
 ];
 }

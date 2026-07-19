@@ -21,6 +21,8 @@
     udisks2
     ntfs3g
     exfatprogs
+    pciutils
+    usbutils
 
     # Visores
     loupe
@@ -37,6 +39,7 @@
     
     # Sonido
     pavucontrol
+    easyeffects
 
   ];
 }
